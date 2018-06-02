@@ -40,27 +40,3 @@ for r in REGIONES:
                     COUNT = 0
                     ARRAY = []
                     i=0
-        
-
-# CONT = 0
-# for path in PRODUCTS:
-#     url = 'http://www.pleaserusa.com/'+path
-#     page = html.fromstring(urllib.urlopen(url).read())
-#     link = page.find_class('jqzoom')[0:1]
-#     if link[0][0].get('jqimg'):
-#         url_jpg = link[0][0].get('jqimg')
-#         img_name = url_jpg.split('/')[-1]
-#         img = urllib.urlretrieve(url_jpg, 'img/'+img_name)
-#         CONT += 1
-#     elif link[0][1].get('jqimg'):
-#         url_jpg = link[0][1].get('jqimg')
-#         img_name = url_jpg.split('/')[-1]
-#         img = urllib.urlretrieve(url_jpg, 'img/'+img_name)
-#         CONT += 1
-#     else:
-#         CONT += 1
-#         print url
-#         print "Problem"
-#     print CONT
-    
-    

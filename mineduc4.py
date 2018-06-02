@@ -19,9 +19,8 @@ for rr in RBD:
     ARRAY_BASE = []
     ARRAY = []
     COUNT = 0
-    print str(rr)
     nombre_colegio = page.xpath('//table//td/text()')[2].encode('utf-8').strip()
-    
+
     link = page.find_class('letra_capital')
 
     direccion = link[0].text.encode('utf-8').strip()
@@ -52,8 +51,3 @@ for rr in RBD:
     f.write(web)
     f.write('\n')
     f.close()
-
-    
-        
-    
-    
