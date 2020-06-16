@@ -140,3 +140,7 @@ for code in CODE:
                     f.write('"{0}"'.format(str(array[a])))
     f.write('\n')
     f.close()
+
+f = open('info_colegios.csv', 'a')
+f.write('\n final \n')
+f.close()
